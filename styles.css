@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Condensed:wght@600&display=swap');
+
+:root {
+    --primary-color: #161F56;
+    --secondary-color: #FCC5B8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 10% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    
+}
+
+.titulo {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+  
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    width: 593px;
+    height: 144px;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    width: 250px;
+    padding: 20px;
+    margin: 5px;
+    gap: 16px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.secao__conteudo {
+    width: 482px;
+    height: 615px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+img {
+  width: 450px;
+  height: 500px;
+}
